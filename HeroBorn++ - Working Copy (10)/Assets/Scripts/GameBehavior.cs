@@ -108,7 +108,7 @@ public class GameBehavior : MonoBehaviour //, IManager
 
     void RestartLevel()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         Time.timeScale = 1.0f;
     }
 
